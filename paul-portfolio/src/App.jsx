@@ -14,7 +14,6 @@ function App() {
       <div className="content">
         <Header />
         <Outlet />
-        {/* <Footer /> */}
       </div>
     </div>
   );
