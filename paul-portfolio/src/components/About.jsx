@@ -1,3 +1,5 @@
+import profile from "../assets/profile.JPG";
+
 export default function About() {
   return (
     <div className="container-fluid body d-flex flex-column align-items-center">
@@ -27,7 +29,7 @@ export default function About() {
           <img
             className="pic"
             id="dynamic-image"
-            src="./assets/profile.JPG"
+            src={profile}
             alt="About Me Pic"
             width="500"
             height="400"

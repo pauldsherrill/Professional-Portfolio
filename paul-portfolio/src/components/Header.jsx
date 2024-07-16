@@ -1,4 +1,9 @@
 import { useLocation } from "react-router-dom";
+import githubLogo from "../assets/github-mark-white.png";
+import gmailLogo from "../assets/gmail-logo.png";
+import linkedinLogo from "../assets/linkedin-logo.png";
+import instagramLogo from "../assets/instagram-logo.png";
+import xLogo from "../assets/x-logo.png";
 
 export const Header = () => {
   const location = useLocation();
@@ -45,12 +50,7 @@ export const Header = () => {
               className="nav-link icon"
               href="https://github.com/pauldsherrill"
             >
-              <img
-                src="./assets/github-mark-white.png"
-                alt="Github Logo"
-                width="30"
-                height="30"
-              />
+              <img src={githubLogo} alt="Github Logo" width="30" height="30" />
             </a>
           </li>
           <li className="nav-item">
@@ -59,12 +59,7 @@ export const Header = () => {
               className="nav-link icon"
               href="mailto:sherrillpaul21@gmail.com"
             >
-              <img
-                src="./assets/gmail-logo.png"
-                alt="Gmail Logo"
-                width="30"
-                height="30"
-              />
+              <img src={gmailLogo} alt="Gmail Logo" width="30" height="30" />
             </a>
           </li>
           <li className="nav-item">
@@ -74,7 +69,7 @@ export const Header = () => {
               href="https://www.linkedin.com/in/paul-sherrill-167154231"
             >
               <img
-                src="./assets/linkedin-logo.png"
+                src={linkedinLogo}
                 alt="LinkedIn Logo"
                 width="30"
                 height="30"
@@ -88,7 +83,7 @@ export const Header = () => {
               href="https://www.instagram.com/pauldsherrill/"
             >
               <img
-                src="./assets/instagram-logo.png"
+                src={instagramLogo}
                 alt="Instagram Logo"
                 width="30"
                 height="30"
@@ -101,12 +96,7 @@ export const Header = () => {
               className="nav-link icon"
               href="https://x.com/PaulSherrill12"
             >
-              <img
-                src="./assets/x-logo.png"
-                alt="X Logo"
-                width="30"
-                height="30"
-              />
+              <img src={xLogo} alt="X Logo" width="30" height="30" />
             </a>
           </li>
         </ul>

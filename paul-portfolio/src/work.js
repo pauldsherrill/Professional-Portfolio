@@ -14,6 +14,21 @@ import bootcamp1 from "./assets/bootcamp-banking1.png";
 import techBlog1 from "./assets/blog2-1.png";
 import socialNetwork1 from "./assets/social-network1.png";
 import placeholder from "./assets/placeholder.png";
+import css from "./assets/css.png";
+import html from "./assets/html.png";
+import javascript from "./assets/javascript.png";
+import bootstrap from "./assets/bootstrap.png";
+import tailwind from "./assets/tailwind.png";
+import jquery from "./assets/jquery.png";
+import node from "./assets/node.png";
+import express from "./assets/express.png";
+import postgresql from "./assets/postgresql.png";
+import insomnia from "./assets/insomnia.png";
+import handlebars from "./assets/handlebars.png";
+import mongodb from "./assets/mongodb.jpg";
+import graphql from "./assets/graphql.png";
+import react from "./assets/react.png";
+import redux from "./assets/redux.png";
 
 const projects = [
   {
@@ -162,91 +177,91 @@ const projects = [
 const skills = [
   {
     href: "#",
-    src: "./assets/html.png",
+    src: html,
     alt: "HTML5",
     classes: "html",
   },
   {
     href: "#",
-    src: "./assets/css.png",
+    src: css,
     alt: "CSS3",
     classes: "css",
   },
   {
     href: "#",
-    src: "./assets/javascript.png",
+    src: javascript,
     alt: "JAVASCRIPT",
     classes: "js",
   },
   {
     href: "#",
-    src: "./assets/bootstrap.png",
+    src: bootstrap,
     alt: "BOOTSTRAP",
     classes: "bs",
   },
   {
     href: "#",
-    src: "./assets/tailwind.png",
+    src: tailwind,
     alt: "TAILWIND",
     classes: "tw",
   },
   {
     href: "#",
-    src: "./assets/jquery.png",
+    src: jquery,
     alt: "JQUERY",
     classes: "jq",
   },
   {
     href: "#",
-    src: "./assets/node.png",
+    src: node,
     alt: "NODE.JS",
     classes: "node",
   },
   {
     href: "#",
-    src: "./assets/express.png",
+    src: express,
     alt: "EXPRESS.JS",
     classes: "node",
   },
   {
     href: "#",
-    src: "./assets/postgresql.png",
+    src: postgresql,
     alt: "POSTGRESQL",
     classes: "pg",
   },
   {
     href: "#",
-    src: "./assets/insomnia.png",
+    src: insomnia,
     alt: "INSOMNIA",
     classes: "insomnia",
   },
   {
     href: "#",
-    src: "./assets/handlebars.png",
+    src: handlebars,
     alt: "HANDLEBARS",
     classes: "hb",
   },
   {
     href: "#",
-    src: "./assets/mongodb.jpg",
+    src: mongodb,
     alt: "MONGODB",
     classes: "mdb",
   },
   {
     href: "#",
-    src: "./assets/graphql.png",
+    src: graphql,
     alt: "GAPHQL",
     classes: "gql",
   },
   {
     href: "#",
-    src: "./assets/react.png",
+    src: react,
     alt: "REACT.JS",
     classes: "react",
   },
   {
     href: "#",
-    src: "./assets/redux.png",
+    src: redux,
     alt: "REDUX",
     classes: "redux",
   },
